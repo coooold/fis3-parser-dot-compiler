@@ -1,0 +1,32 @@
+{
+    "name" : "fis3-parser-dot-compiler",
+    "description" : "doT.js的fis3编译插件——一款javascript模板引擎",
+    "version" : "0.0.3",
+    "author": {
+        "name": "coooold",
+        "email": "coooold@outlook.com",
+        "url": "https://github.com/coooold/"
+    },
+    "homepage" : "https://github.com/coooold/fis3-parser-dot-compiler",
+    "keywords": ["fis", "fis3", "fis-parser", "template", "doT.js"],
+    "main" : "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/coooold/fis3-parser-dot-compiler"
+    },
+    "bugs": {
+        "url": "https://github.com/coooold/fis3-parser-dot-compiler/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/coooold/fis3-parser-dot-compiler/blob/master/MIT-LICENSE.txt"
+        }
+    ],
+    "engines" : {
+        "node" : ">= 0.8.0"
+    },
+    "scripts" : {
+        "test" : "mocha test/ut --recursive"
+    }
+}
