@@ -1,7 +1,7 @@
 {
     "name" : "fis3-parser-dot-compiler",
-    "description" : "doT.js的fis3编译插件——一款javascript模板引擎",
-    "version" : "0.0.3",
+    "description" : "doT.js的fis3编译插件——一将doT模板编译成可直接在前端使用的js函数",
+    "version" : "0.0.4",
     "author": {
         "name": "coooold",
         "email": "coooold@outlook.com",
