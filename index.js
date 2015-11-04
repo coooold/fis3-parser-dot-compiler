@@ -9,7 +9,7 @@ var doT = require('./doT.js');
 module.exports = function(content, file, conf) {
 
     if(conf){
-        doT.templateSettings = fis.util.merge(doT.templateSettings, conf);
+        doT.templateSettings = fis.util.merge(conf, doT.templateSettings);
     }
 
     content = doT.compile(content).toString().replace(/^function anonymous/, 'function');
